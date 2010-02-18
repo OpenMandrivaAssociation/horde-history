@@ -8,12 +8,12 @@ Version:       0.0.2
 Release:       %mkrel 1
 Summary:       API for tracking the history of an object.
 License:       LGPL
-Group:         Productivity/Networking/Web/Servers
+Group:         Networking/Mail
 Url:           http://pear.horde.org/index.php?package=%{prj}
 Source0:       %{prj}-%{version}.tgz
 BuildArch:     noarch
 BuildRoot:     %{_tmppath}/%{name}-%{version}-build
-PreReq:        %{_bindir}/pear
+Requires(pre): %{_bindir}/pear
 Requires:      php-pear-channel-horde
 BuildRequires: horde-framework
 BuildRequires: php-pear
