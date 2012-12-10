@@ -51,3 +51,23 @@ fi
 %defattr(-, root, root)
 %{xmldir}/%{prj}.xml
 %{peardir}/Horde/History.php
+
+
+%changelog
+* Mon Jul 26 2010 Thomas Spuhler <tspuhler@mandriva.org> 0.0.2-3mdv2011.0
++ Revision: 560546
+- Increased release for rebuild
+
+* Thu Mar 18 2010 Thomas Spuhler <tspuhler@mandriva.org> 0.0.2-2mdv2010.1
++ Revision: 524790
+- increased revision to 2
+- replaced Requires(pre): %%{_bindir}/pear with Requires(pre): php-pear
+
+* Sat Feb 27 2010 Thomas Spuhler <tspuhler@mandriva.org> 0.0.2-1mdv2010.1
++ Revision: 512356
+- Removed the Dot at the end of the Summary
+- removed BuildRequires: horde-framework
+- replace PreReq with Requires(pre)
+- Initial import
+
+
