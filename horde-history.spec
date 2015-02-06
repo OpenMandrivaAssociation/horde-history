@@ -5,7 +5,7 @@
 
 Name:          horde-history
 Version:       0.0.2
-Release:       %mkrel 3
+Release:       4
 Summary:       API for tracking the history of an object
 License:       LGPL
 Group:         Networking/Mail
